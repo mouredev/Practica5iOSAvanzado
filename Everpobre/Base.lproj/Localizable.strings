@@ -1,0 +1,38 @@
+// Book
+books.title = "Everpobre Brais Moure";
+books.note.count = "%@ note";
+books.notes.count = "%@ notes";
+books.options = "Options:";
+books.mynotebook = "My notebook";
+books.noteoptions.title = "Select an option";
+books.noteoptions.createnote = "Create a note";
+books.noteoptions.createnotenotebook = "Create a note in a notebook";
+books.noteoptions.createnotebook = "Create a notebook";
+books.noteoptions.createnotebook.body = "Enter a notebook title";
+books.deleteoptions.deletenotebook = "Delete notebook";
+books.deleteoptions.deletenote = "Delete note";
+books.alert.deleteerror.title = "Can't delete the notebook";
+books.alert.deleteerror.body = "A notebook can not be deleted if it is unique or marked as a favorite.";
+books.alert.movenotes = "Save the notes on another notebook";
+books.alert.deleteall = "Delete notebook and his notes";
+
+// Note
+note.title = "New Note";
+note.moreoptions = "More options:";
+note.addphoto = "Use the camera or add a photo from the gallery";
+note.alert.saveerror.title = "Unable to save the note";
+note.alert.saveerror.body = "The note must have title and content.";
+note.mynote = "My note";
+note.alert.movenote.tite = "Move note";
+note.alert.movenote.body = "Do you want to move the note to the notebook %@?";
+
+// Notifications
+notification.title = "Notification: %@";
+notification.body = "Note reminder: %@";
+
+// Generic
+camera = "Camera";
+photolibrary = "Photo library";
+accept = "Accept";
+cancel = "Cancel";
+delete = "Delete";

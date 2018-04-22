@@ -1,0 +1,4 @@
+NSCameraUsageDescription = "Everpobre uses camera to add photos to the note.";
+NSLocationWhenInUseUsageDescription = "Everpobre needs to know your location to add it to the note.";
+NSPhotoLibraryUsageDescription = "Everpobre uses photo library to allow the user to add photos to the note.";
+

@@ -1,0 +1,639 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC021061208658BA00ABB010 /* Everpobre.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC02105F208658BA00ABB010 /* Everpobre.xcdatamodeld */; };
+		AC34DA52208730EF0088A857 /* _Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA4C208730EF0088A857 /* _Note.swift */; };
+		AC34DA53208730EF0088A857 /* _Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA4D208730EF0088A857 /* _Notebook.swift */; };
+		AC34DA54208730EF0088A857 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA4E208730EF0088A857 /* Note.swift */; };
+		AC34DA55208730EF0088A857 /* _Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA4F208730EF0088A857 /* _Image.swift */; };
+		AC34DA56208730EF0088A857 /* Notebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA50208730EF0088A857 /* Notebook.swift */; };
+		AC34DA57208730EF0088A857 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC34DA51208730EF0088A857 /* Image.swift */; };
+		AC48B01D208C718A00D3A319 /* SelectNotebookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC48B01F208C718A00D3A319 /* SelectNotebookViewController.xib */; };
+		AC48B022208C719800D3A319 /* NoteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC48B024208C719800D3A319 /* NoteViewController.xib */; };
+		AC48B025208C719E00D3A319 /* BooksTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC48B027208C719E00D3A319 /* BooksTableViewController.xib */; };
+		AC48B028208C71A200D3A319 /* BookTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC48B02A208C71A200D3A319 /* BookTableViewCell.xib */; };
+		AC48B02B208C71A600D3A319 /* NoteTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AC48B02D208C71A600D3A319 /* NoteTableViewCell.xib */; };
+		AC48B02E208C71AE00D3A319 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC48B030208C71AE00D3A319 /* Localizable.strings */; };
+		AC53D5402085CA8C00B5D0CE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC53D53F2085CA8C00B5D0CE /* CoreData.framework */; };
+		AC53D5422085CAF300B5D0CE /* CoreDataContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC53D5412085CAF300B5D0CE /* CoreDataContainer.swift */; };
+		AC747FB7208D1B9500D73368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AC747FB9208D1B9500D73368 /* InfoPlist.strings */; };
+		ACC437672089FC31002A893E /* Lobster-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ACC437662089FC31002A893E /* Lobster-Regular.ttf */; };
+		ACC52A982084B7F3006A9D0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52A972084B7F3006A9D0F /* AppDelegate.swift */; };
+		ACC52A9F2084B7F5006A9D0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACC52A9E2084B7F5006A9D0F /* Assets.xcassets */; };
+		ACC52AA22084B7F5006A9D0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACC52AA02084B7F5006A9D0F /* LaunchScreen.storyboard */; };
+		ACC52AAB2084B92C006A9D0F /* keepcoding.png in Resources */ = {isa = PBXBuildFile; fileRef = ACC52AAA2084B92C006A9D0F /* keepcoding.png */; };
+		ACC52AB32084BC8E006A9D0F /* BooksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52AB12084BC8E006A9D0F /* BooksTableViewController.swift */; };
+		ACC52AB72084BCA0006A9D0F /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52AB52084BCA0006A9D0F /* NoteViewController.swift */; };
+		ACC52ABD2084BD52006A9D0F /* BookTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52ABB2084BD52006A9D0F /* BookTableViewCell.swift */; };
+		ACC52AC12084BD63006A9D0F /* NoteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52ABF2084BD63006A9D0F /* NoteTableViewCell.swift */; };
+		ACC52AC52084C205006A9D0F /* EverpobreColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52AC42084C205006A9D0F /* EverpobreColors.swift */; };
+		ACC52AC82084C354006A9D0F /* CustomUIVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC52AC72084C354006A9D0F /* CustomUIVViewController.swift */; };
+		ACF85AA320889B86002F0271 /* CoreDataTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF85AA220889B86002F0271 /* CoreDataTableViewController.swift */; };
+		ACF85AA82088D0F9002F0271 /* SelectNotebookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF85AA62088D0F9002F0271 /* SelectNotebookViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC021060208658BA00ABB010 /* Everpobre.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Everpobre.xcdatamodel; sourceTree = "<group>"; };
+		AC34DA4C208730EF0088A857 /* _Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Note.swift; sourceTree = "<group>"; };
+		AC34DA4D208730EF0088A857 /* _Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Notebook.swift; sourceTree = "<group>"; };
+		AC34DA4E208730EF0088A857 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		AC34DA4F208730EF0088A857 /* _Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = _Image.swift; sourceTree = "<group>"; };
+		AC34DA50208730EF0088A857 /* Notebook.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Notebook.swift; sourceTree = "<group>"; };
+		AC34DA51208730EF0088A857 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		AC48B01E208C718A00D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/SelectNotebookViewController.xib; sourceTree = "<group>"; };
+		AC48B021208C718D00D3A319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/SelectNotebookViewController.strings; sourceTree = "<group>"; };
+		AC48B023208C719800D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NoteViewController.xib; sourceTree = "<group>"; };
+		AC48B026208C719E00D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BooksTableViewController.xib; sourceTree = "<group>"; };
+		AC48B029208C71A200D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/BookTableViewCell.xib; sourceTree = "<group>"; };
+		AC48B02C208C71A600D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/NoteTableViewCell.xib; sourceTree = "<group>"; };
+		AC48B032208C71B700D3A319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC48B034208C71D700D3A319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AC48B038208C745200D3A319 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/NoteViewController.strings; sourceTree = "<group>"; };
+		AC53D53F2085CA8C00B5D0CE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AC53D5412085CAF300B5D0CE /* CoreDataContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataContainer.swift; sourceTree = "<group>"; };
+		AC747FBB208D1BA000D73368 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AC747FBC208D1BAF00D73368 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACC437662089FC31002A893E /* Lobster-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lobster-Regular.ttf"; sourceTree = "<group>"; };
+		ACC437682089FFD4002A893E /* Everpobre.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Everpobre.entitlements; sourceTree = "<group>"; };
+		ACC52A942084B7F3006A9D0F /* Everpobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Everpobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACC52A972084B7F3006A9D0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ACC52A9E2084B7F5006A9D0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACC52AA12084B7F5006A9D0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ACC52AA32084B7F5006A9D0F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACC52AAA2084B92C006A9D0F /* keepcoding.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = keepcoding.png; sourceTree = "<group>"; };
+		ACC52AB12084BC8E006A9D0F /* BooksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewController.swift; sourceTree = "<group>"; };
+		ACC52AB52084BCA0006A9D0F /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		ACC52ABB2084BD52006A9D0F /* BookTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookTableViewCell.swift; sourceTree = "<group>"; };
+		ACC52ABF2084BD63006A9D0F /* NoteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteTableViewCell.swift; sourceTree = "<group>"; };
+		ACC52AC42084C205006A9D0F /* EverpobreColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EverpobreColors.swift; sourceTree = "<group>"; };
+		ACC52AC72084C354006A9D0F /* CustomUIVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUIVViewController.swift; sourceTree = "<group>"; };
+		ACF85AA220889B86002F0271 /* CoreDataTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTableViewController.swift; sourceTree = "<group>"; };
+		ACF85AA62088D0F9002F0271 /* SelectNotebookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectNotebookViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACC52A912084B7F3006A9D0F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC53D5402085CA8C00B5D0CE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC53D53E2085CA8C00B5D0CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC53D53F2085CA8C00B5D0CE /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACC437632089E34F002A893E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				ACF85AA62088D0F9002F0271 /* SelectNotebookViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ACC437642089E358002A893E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B01F208C718A00D3A319 /* SelectNotebookViewController.xib */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		ACC437652089FC26002A893E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ACC437662089FC31002A893E /* Lobster-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ACC52A8B2084B7F3006A9D0F = {
+			isa = PBXGroup;
+			children = (
+				ACC52A962084B7F3006A9D0F /* Everpobre */,
+				ACC52A952084B7F3006A9D0F /* Products */,
+				AC53D53E2085CA8C00B5D0CE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ACC52A952084B7F3006A9D0F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52A942084B7F3006A9D0F /* Everpobre.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACC52A962084B7F3006A9D0F /* Everpobre */ = {
+			isa = PBXGroup;
+			children = (
+				ACC437682089FFD4002A893E /* Everpobre.entitlements */,
+				ACC52A972084B7F3006A9D0F /* AppDelegate.swift */,
+				ACC52AAC2084BBE2006A9D0F /* Controller */,
+				ACC52AAE2084BBEF006A9D0F /* View */,
+				ACC52AAD2084BBEB006A9D0F /* Model */,
+				ACC52A9E2084B7F5006A9D0F /* Assets.xcassets */,
+				ACC52AA92084B91F006A9D0F /* Images */,
+				ACC52AC32084C1E3006A9D0F /* Util */,
+				ACC52AA32084B7F5006A9D0F /* Info.plist */,
+				AC747FB9208D1B9500D73368 /* InfoPlist.strings */,
+				AC48B030208C71AE00D3A319 /* Localizable.strings */,
+			);
+			path = Everpobre;
+			sourceTree = "<group>";
+		};
+		ACC52AA92084B91F006A9D0F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AAA2084B92C006A9D0F /* keepcoding.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		ACC52AAC2084BBE2006A9D0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AB02084BC53006A9D0F /* Book */,
+				ACC52AAF2084BC4C006A9D0F /* Note */,
+				ACC437632089E34F002A893E /* Common */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACC52AAD2084BBEB006A9D0F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC53D5412085CAF300B5D0CE /* CoreDataContainer.swift */,
+				AC02105F208658BA00ABB010 /* Everpobre.xcdatamodeld */,
+				AC34DA4F208730EF0088A857 /* _Image.swift */,
+				AC34DA4C208730EF0088A857 /* _Note.swift */,
+				AC34DA4D208730EF0088A857 /* _Notebook.swift */,
+				AC34DA51208730EF0088A857 /* Image.swift */,
+				AC34DA4E208730EF0088A857 /* Note.swift */,
+				AC34DA50208730EF0088A857 /* Notebook.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		ACC52AAE2084BBEF006A9D0F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AB92084BCA4006A9D0F /* Book */,
+				ACC52ABA2084BCA8006A9D0F /* Note */,
+				ACC437642089E358002A893E /* Common */,
+				ACC52AA02084B7F5006A9D0F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ACC52AAF2084BC4C006A9D0F /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AB52084BCA0006A9D0F /* NoteViewController.swift */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		ACC52AB02084BC53006A9D0F /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AB12084BC8E006A9D0F /* BooksTableViewController.swift */,
+				ACC52ABB2084BD52006A9D0F /* BookTableViewCell.swift */,
+				ACC52ABF2084BD63006A9D0F /* NoteTableViewCell.swift */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		ACC52AB92084BCA4006A9D0F /* Book */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B027208C719E00D3A319 /* BooksTableViewController.xib */,
+				AC48B02A208C71A200D3A319 /* BookTableViewCell.xib */,
+				AC48B02D208C71A600D3A319 /* NoteTableViewCell.xib */,
+			);
+			path = Book;
+			sourceTree = "<group>";
+		};
+		ACC52ABA2084BCA8006A9D0F /* Note */ = {
+			isa = PBXGroup;
+			children = (
+				AC48B024208C719800D3A319 /* NoteViewController.xib */,
+			);
+			path = Note;
+			sourceTree = "<group>";
+		};
+		ACC52AC32084C1E3006A9D0F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				ACC437652089FC26002A893E /* Fonts */,
+				ACC52ACA2084C616006A9D0F /* UI */,
+				ACC52AC62084C337006A9D0F /* Extension */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		ACC52AC62084C337006A9D0F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				ACF85AA220889B86002F0271 /* CoreDataTableViewController.swift */,
+				ACC52AC72084C354006A9D0F /* CustomUIVViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		ACC52ACA2084C616006A9D0F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				ACC52AC42084C205006A9D0F /* EverpobreColors.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACC52A932084B7F3006A9D0F /* Everpobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACC52AA62084B7F5006A9D0F /* Build configuration list for PBXNativeTarget "Everpobre" */;
+			buildPhases = (
+				ACC52A902084B7F3006A9D0F /* Sources */,
+				ACC52A912084B7F3006A9D0F /* Frameworks */,
+				ACC52A922084B7F3006A9D0F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Everpobre;
+			productName = Everpobre;
+			productReference = ACC52A942084B7F3006A9D0F /* Everpobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACC52A8C2084B7F3006A9D0F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Brais Moure";
+				TargetAttributes = {
+					ACC52A932084B7F3006A9D0F = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = ACC52A8F2084B7F3006A9D0F /* Build configuration list for PBXProject "Everpobre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				es,
+			);
+			mainGroup = ACC52A8B2084B7F3006A9D0F;
+			productRefGroup = ACC52A952084B7F3006A9D0F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACC52A932084B7F3006A9D0F /* Everpobre */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACC52A922084B7F3006A9D0F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC48B02B208C71A600D3A319 /* NoteTableViewCell.xib in Resources */,
+				AC48B01D208C718A00D3A319 /* SelectNotebookViewController.xib in Resources */,
+				ACC52AA22084B7F5006A9D0F /* LaunchScreen.storyboard in Resources */,
+				ACC52A9F2084B7F5006A9D0F /* Assets.xcassets in Resources */,
+				AC48B028208C71A200D3A319 /* BookTableViewCell.xib in Resources */,
+				ACC437672089FC31002A893E /* Lobster-Regular.ttf in Resources */,
+				AC48B025208C719E00D3A319 /* BooksTableViewController.xib in Resources */,
+				AC48B02E208C71AE00D3A319 /* Localizable.strings in Resources */,
+				AC48B022208C719800D3A319 /* NoteViewController.xib in Resources */,
+				AC747FB7208D1B9500D73368 /* InfoPlist.strings in Resources */,
+				ACC52AAB2084B92C006A9D0F /* keepcoding.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACC52A902084B7F3006A9D0F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC34DA55208730EF0088A857 /* _Image.swift in Sources */,
+				AC53D5422085CAF300B5D0CE /* CoreDataContainer.swift in Sources */,
+				ACF85AA320889B86002F0271 /* CoreDataTableViewController.swift in Sources */,
+				ACC52ABD2084BD52006A9D0F /* BookTableViewCell.swift in Sources */,
+				ACC52AC82084C354006A9D0F /* CustomUIVViewController.swift in Sources */,
+				AC34DA57208730EF0088A857 /* Image.swift in Sources */,
+				ACF85AA82088D0F9002F0271 /* SelectNotebookViewController.swift in Sources */,
+				ACC52AB32084BC8E006A9D0F /* BooksTableViewController.swift in Sources */,
+				ACC52AB72084BCA0006A9D0F /* NoteViewController.swift in Sources */,
+				AC34DA56208730EF0088A857 /* Notebook.swift in Sources */,
+				ACC52AC12084BD63006A9D0F /* NoteTableViewCell.swift in Sources */,
+				AC34DA53208730EF0088A857 /* _Notebook.swift in Sources */,
+				ACC52AC52084C205006A9D0F /* EverpobreColors.swift in Sources */,
+				ACC52A982084B7F3006A9D0F /* AppDelegate.swift in Sources */,
+				AC021061208658BA00ABB010 /* Everpobre.xcdatamodeld in Sources */,
+				AC34DA52208730EF0088A857 /* _Note.swift in Sources */,
+				AC34DA54208730EF0088A857 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC48B01F208C718A00D3A319 /* SelectNotebookViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B01E208C718A00D3A319 /* Base */,
+				AC48B021208C718D00D3A319 /* es */,
+			);
+			name = SelectNotebookViewController.xib;
+			sourceTree = "<group>";
+		};
+		AC48B024208C719800D3A319 /* NoteViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B023208C719800D3A319 /* Base */,
+				AC48B038208C745200D3A319 /* es */,
+			);
+			name = NoteViewController.xib;
+			sourceTree = "<group>";
+		};
+		AC48B027208C719E00D3A319 /* BooksTableViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B026208C719E00D3A319 /* Base */,
+			);
+			name = BooksTableViewController.xib;
+			sourceTree = "<group>";
+		};
+		AC48B02A208C71A200D3A319 /* BookTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B029208C71A200D3A319 /* Base */,
+			);
+			name = BookTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		AC48B02D208C71A600D3A319 /* NoteTableViewCell.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B02C208C71A600D3A319 /* Base */,
+			);
+			name = NoteTableViewCell.xib;
+			sourceTree = "<group>";
+		};
+		AC48B030208C71AE00D3A319 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC48B032208C71B700D3A319 /* Base */,
+				AC48B034208C71D700D3A319 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		AC747FB9208D1B9500D73368 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC747FBB208D1BA000D73368 /* Base */,
+				AC747FBC208D1BAF00D73368 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACC52AA02084B7F5006A9D0F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACC52AA12084B7F5006A9D0F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACC52AA42084B7F5006A9D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACC52AA52084B7F5006A9D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACC52AA72084B7F5006A9D0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = Everpobre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.Everpobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACC52AA82084B7F5006A9D0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SJGR47U9J5;
+				INFOPLIST_FILE = Everpobre/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.braismoure.Everpobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACC52A8F2084B7F3006A9D0F /* Build configuration list for PBXProject "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC52AA42084B7F5006A9D0F /* Debug */,
+				ACC52AA52084B7F5006A9D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC52AA62084B7F5006A9D0F /* Build configuration list for PBXNativeTarget "Everpobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACC52AA72084B7F5006A9D0F /* Debug */,
+				ACC52AA82084B7F5006A9D0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC02105F208658BA00ABB010 /* Everpobre.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC021060208658BA00ABB010 /* Everpobre.xcdatamodel */,
+			);
+			currentVersion = AC021060208658BA00ABB010 /* Everpobre.xcdatamodel */;
+			path = Everpobre.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ACC52A8C2084B7F3006A9D0F /* Project object */;
+}

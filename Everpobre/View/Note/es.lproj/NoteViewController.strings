@@ -1,0 +1,24 @@
+
+/* Class = "UITextField"; placeholder = "NOTE TITLE"; ObjectID = "5a2-W4-TkU"; */
+"5a2-W4-TkU.placeholder" = "TÍTULO NOTA";
+
+/* Class = "UITextView"; text = "Write a note..."; ObjectID = "9rB-h2-Ny0"; */
+"9rB-h2-Ny0.text" = "Escribe una nota...";
+
+/* Class = "UITextField"; placeholder = "Select expiration date"; ObjectID = "HDJ-6E-cdL"; */
+"HDJ-6E-cdL.placeholder" = "Selecciona una fecha de expiración";
+
+/* Class = "UILabel"; text = "Title:"; ObjectID = "QUK-5n-cAs"; */
+"QUK-5n-cAs.text" = "Título:";
+
+/* Class = "UILabel"; text = "Expiration date:"; ObjectID = "S4j-qY-bHV"; */
+"S4j-qY-bHV.text" = "Fecha de expiración:";
+
+/* Class = "UITextField"; placeholder = "Select creation date"; ObjectID = "jMp-bw-BhM"; */
+"jMp-bw-BhM.placeholder" = "Selecciona una fecha de creación";
+
+/* Class = "UILabel"; text = "Creation date:"; ObjectID = "lty-Yy-UNi"; */
+"lty-Yy-UNi.text" = "Fecha de creación:";
+
+/* Class = "UIButton"; normalTitle = "NOTEBOOK NAME"; ObjectID = "oqw-SO-2Bi"; */
+"oqw-SO-2Bi.normalTitle" = "NOMBRE LIBRETA";

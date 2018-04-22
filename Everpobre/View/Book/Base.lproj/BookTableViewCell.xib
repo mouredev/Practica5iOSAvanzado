@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="bookcell" rowHeight="65" id="KGk-i7-Jjw" customClass="BookTableViewCell" customModule="Everpobre" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="64.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOTEBOOK NAME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="98S-pS-LlE">
+                        <rect key="frame" x="20" y="15" width="231.5" height="22"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                        <color key="textColor" red="0.90980392160000001" green="0.090196078430000007" blue="0.36470588240000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 NOTES" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ypf-bI-jOL">
+                        <rect key="frame" x="151" y="37" width="59" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.80000000000000004" green="0.32156862745098036" blue="0.47843137254901957" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4ZE-GQ-Sa7">
+                        <rect key="frame" x="0.0" y="63.5" width="320" height="1"/>
+                        <color key="backgroundColor" red="0.6588235294117647" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="qx4-re-HEG"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lSn-dU-NRO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="5"/>
+                        <color key="backgroundColor" red="0.6588235294117647" green="0.65490196078431373" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="5" id="JIS-G6-j1U"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00/00/0000 00:00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9C0-4m-1bi">
+                        <rect key="frame" x="20" y="37" width="121" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.80000000000000004" green="0.32156862749999998" blue="0.47843137250000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KL4-LC-Zfb">
+                        <rect key="frame" x="261.5" y="10" width="48.5" height="48.5"/>
+                        <color key="backgroundColor" red="0.21176470589999999" green="0.21176470589999999" blue="0.21176470589999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="KL4-LC-Zfb" secondAttribute="height" multiplier="1:1" id="ENl-GO-4UC"/>
+                        </constraints>
+                        <state key="normal" image="star_gray"/>
+                        <connections>
+                            <action selector="favoriteButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="SS2-V4-onM"/>
+                            <action selector="teto:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4ZU-ZC-hRt"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.21176470588235294" green="0.21176470588235294" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="4ZE-GQ-Sa7" firstAttribute="top" secondItem="KL4-LC-Zfb" secondAttribute="bottom" constant="5" id="1H8-UD-mvB"/>
+                    <constraint firstItem="4ZE-GQ-Sa7" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="EDE-1g-mP3"/>
+                    <constraint firstItem="KL4-LC-Zfb" firstAttribute="leading" secondItem="98S-pS-LlE" secondAttribute="trailing" constant="10" id="Qk1-CZ-EEq"/>
+                    <constraint firstItem="ypf-bI-jOL" firstAttribute="leading" secondItem="9C0-4m-1bi" secondAttribute="trailing" constant="10" id="RkT-Lp-5W3"/>
+                    <constraint firstItem="ypf-bI-jOL" firstAttribute="top" secondItem="98S-pS-LlE" secondAttribute="bottom" id="Uz2-x9-BCw"/>
+                    <constraint firstItem="98S-pS-LlE" firstAttribute="top" secondItem="lSn-dU-NRO" secondAttribute="bottom" constant="10" id="XgR-ob-l8U"/>
+                    <constraint firstAttribute="trailing" secondItem="lSn-dU-NRO" secondAttribute="trailing" id="Zhk-K9-Foi"/>
+                    <constraint firstAttribute="trailing" secondItem="4ZE-GQ-Sa7" secondAttribute="trailing" id="ano-fz-aSD"/>
+                    <constraint firstItem="9C0-4m-1bi" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="dK5-xy-H5f"/>
+                    <constraint firstItem="9C0-4m-1bi" firstAttribute="top" secondItem="98S-pS-LlE" secondAttribute="bottom" id="f8m-CL-jKn"/>
+                    <constraint firstItem="4ZE-GQ-Sa7" firstAttribute="top" secondItem="ypf-bI-jOL" secondAttribute="bottom" constant="10" id="iUs-u2-8JV"/>
+                    <constraint firstItem="98S-pS-LlE" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ijg-SP-Gcp"/>
+                    <constraint firstItem="lSn-dU-NRO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="jkA-yE-3Hr"/>
+                    <constraint firstItem="4ZE-GQ-Sa7" firstAttribute="top" secondItem="9C0-4m-1bi" secondAttribute="bottom" constant="10" id="mJU-zI-vA6"/>
+                    <constraint firstAttribute="trailing" secondItem="KL4-LC-Zfb" secondAttribute="trailing" constant="10" id="q8X-mI-3Qd"/>
+                    <constraint firstItem="lSn-dU-NRO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sVQ-IZ-498"/>
+                    <constraint firstAttribute="bottom" secondItem="4ZE-GQ-Sa7" secondAttribute="bottom" id="ulN-2x-lxz"/>
+                    <constraint firstItem="KL4-LC-Zfb" firstAttribute="top" secondItem="lSn-dU-NRO" secondAttribute="bottom" constant="5" id="yaZ-7I-5ko"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.21176470588235294" green="0.21176470588235294" blue="0.21176470588235294" alpha="1" colorSpace="calibratedRGB"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="favoriteButton" destination="KL4-LC-Zfb" id="V5q-My-o1Q"/>
+                <outlet property="notebookCreationDateLabel" destination="9C0-4m-1bi" id="13P-6c-JT0"/>
+                <outlet property="notebookNameLabel" destination="98S-pS-LlE" id="kja-cy-9Un"/>
+                <outlet property="notebookNotesNumberLabel" destination="ypf-bI-jOL" id="5E8-A3-wBo"/>
+            </connections>
+            <point key="canvasLocation" x="35" y="63.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="star_gray" width="28" height="28"/>
+    </resources>
+</document>

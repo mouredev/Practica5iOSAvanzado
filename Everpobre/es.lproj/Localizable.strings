@@ -1,0 +1,38 @@
+// Book
+books.title = "Everpobre Brais Moure";
+books.note.count = "%@ nota";
+books.notes.count = "%@ notas";
+books.options = "Opciones:";
+books.mynotebook = "Mi libreta";
+books.noteoptions.title = "Selecciona una opción";
+books.noteoptions.createnote = "Crear una nota";
+books.noteoptions.createnotenotebook = "Crear una nota en una libreta";
+books.noteoptions.createnotebook = "Crear una libreta";
+books.noteoptions.createnotebook.body = "Introduce el título de la libreta";
+books.deleteoptions.deletenotebook = "Eliminar libreta";
+books.deleteoptions.deletenote = "Eliminar nota";
+books.alert.deleteerror.title = "No se puede eliminar la libreta";
+books.alert.deleteerror.body = "Una libreta no puede eliminarse si es única o está marcada como favorita.";
+books.alert.movenotes = "Guardar las notas en otra libreta";
+books.alert.deleteall = "Eliminar libreta y sus notas";
+
+// Note
+note.title = "Nueva nota";
+note.moreoptions = "Más opciones:";
+note.addphoto = "Usa la cámara o añade una foto desde la galería";
+note.alert.saveerror.title = "No se puede guardar la nota";
+note.alert.saveerror.body = "La nota debe tener título y contenido.";
+note.mynote = "Mi nota";
+note.alert.movenote.tite = "Mover nota";
+note.alert.movenote.body = "¿Quieres mover la nota a la libreta %@?";
+
+// Notifications
+notification.title = "Notificación: %@";
+notification.body = "Recordatorio de nota: %@";
+
+// Generic
+camera = "Cámara";
+photolibrary = "Galería de fotos";
+accept = "Aceptar";
+cancel = "Cancelar";
+delete = "Eliminar";

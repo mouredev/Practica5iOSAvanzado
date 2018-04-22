@@ -1,0 +1,3 @@
+NSCameraUsageDescription = "Everpobre usa la cámara para añadir fotos a la nota";
+NSLocationWhenInUseUsageDescription = "Everpobre necesita tu localización para añadirla a la nota.";
+NSPhotoLibraryUsageDescription = "Everpobre usa la galería de imágenes para permitir al usuario añadir fotos a la nota.";
